@@ -1,0 +1,20 @@
+//
+//  PlatformFrame.pch
+//  PlatformFrame
+//
+//  Created by Owen on 2020/5/21.
+//  Copyright © 2020 Owen. All rights reserved.
+//
+
+#ifndef PlatformFrame_pch
+#define PlatformFrame_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <NetWorkMdoule/NetWorkMdoule.h>
+#import <PayModule/PayModule.h>
+
+
+#endif /* PlatformFrame_pch */
