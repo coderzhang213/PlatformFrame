@@ -1,14 +1,13 @@
 //
 //  ViewController.m
-//  PlatformFrame
+//  NewPlatform
 //
 //  Created by Owen on 2020/5/25.
 //  Copyright © 2020 Owen. All rights reserved.
 //
 
 #import "ViewController.h"
-#import <NetWorkMdoule/NetWorkMdoule.h>
-
+#import <NetWorkFrame/NetWorkFrame.h>
 @interface ViewController ()
 
 @end
@@ -18,8 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
-    [NetWorkTask show];
+    [NetWorkTask show1111];
 }
 
 

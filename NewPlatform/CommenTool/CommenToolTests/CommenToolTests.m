@@ -1,6 +1,6 @@
 //
-//  PlatformFrameTests.m
-//  PlatformFrameTests
+//  CommenToolTests.m
+//  CommenToolTests
 //
 //  Created by Owen on 2020/5/25.
 //  Copyright © 2020 Owen. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface PlatformFrameTests : XCTestCase
+@interface CommenToolTests : XCTestCase
 
 @end
 
-@implementation PlatformFrameTests
+@implementation CommenToolTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

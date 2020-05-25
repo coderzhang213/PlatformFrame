@@ -1,6 +1,6 @@
 //
-//  PlatformFrameUITests.m
-//  PlatformFrameUITests
+//  NewPlatformUITests.m
+//  NewPlatformUITests
 //
 //  Created by Owen on 2020/5/25.
 //  Copyright © 2020 Owen. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface PlatformFrameUITests : XCTestCase
+@interface NewPlatformUITests : XCTestCase
 
 @end
 
-@implementation PlatformFrameUITests
+@implementation NewPlatformUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.
