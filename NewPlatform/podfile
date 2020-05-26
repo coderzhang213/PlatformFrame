@@ -1,7 +1,7 @@
 workspace 'NewPlatform'
 
 project '../NewPlatform/NewPlatform.xcodeproj'
-#project '../NewPlatform/NetWorkFrame/NetWorkFrame.xcodeproj'
+project '../NewPlatform/NetWorkModule/NetWorkModule.xcodeproj'
 project '../NewPlatform/CommonClass/CommonClass.xcodeproj'
 #project '../NewPlatform/CommenTool/CommenTool.xcodeproj'
 
@@ -15,22 +15,22 @@ def pods
 
 
 
-#pod 'AFNetworking'
+pod 'AFNetworking'
 pod 'Texture'
 
 end
 
-#target 'NetWorkFrame' do
-#  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-#  # use_frameworks!
-#
-#  project '../NewPlatform/NetWorkFrame/NetWorkFrame.xcodeproj'
-#
-#  pods
-#  pod 'AFNetworking'
-#
-#
-#end
+target 'NetWorkModule' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  project '../NewPlatform/NetWorkModule/NetWorkModule.xcodeproj'
+
+  pods
+  pod 'AFNetworking'
+
+
+end
 
 target 'NewPlatform' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
