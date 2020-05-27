@@ -1,0 +1,6 @@
+framework module NetWorkModule {
+  umbrella header "NetWorkModule.h"
+
+  export *
+  module * { export * }
+}

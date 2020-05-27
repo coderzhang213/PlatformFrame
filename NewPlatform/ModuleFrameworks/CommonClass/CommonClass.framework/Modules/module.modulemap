@@ -1,0 +1,6 @@
+framework module CommonClass {
+  umbrella header "CommonClass.h"
+
+  export *
+  module * { export * }
+}
