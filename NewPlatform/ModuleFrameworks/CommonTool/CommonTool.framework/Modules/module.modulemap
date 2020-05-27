@@ -1,6 +1,0 @@
-framework module CommonTool {
-  umbrella header "CommonTool.h"
-
-  export *
-  module * { export * }
-}
